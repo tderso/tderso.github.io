@@ -1,8 +1,40 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html>
+	<head>
+	<title>Test page: Don't panic</title>
+	<meta charset="utf-8">
+	<!-- 
+_includes/base.html 
+From: https://ricostacruz.com/til/relative-paths-in-jekyll
+With minor modifications.
+-->
 
-<div class="home">
+
+
+	<!-- link rel="stylesheet" href="css/reset.css" / -->
+	<link rel="stylesheet" href="/css/main.css" />
+</head>
+	<body>
+		<header class="header">
+	<nav>
+		<ul class="header-nav">
+			<li><a href="/">Home</a></li>
+<li><a href="/gallery">Gallery</a></li>
+<li><a href="/blog">Blog</a></li>
+<li><a href="/2017/06/16/today-events.html">Newest Post</a></li>
+
+		</ul>
+	</nav>
+	<a href="/" class="header-logo">
+		<img src="images/logo.png" alt="Learn Enough" />
+	</a>
+	<!--  -->
+</header>
+
+
+		
+		<div class="content-container">
+			<div class="home">
 	<div class="full-hero hero-home">
 		<div class="hero-content">
 			<h1>CODE DANGEROUSLY</h1>
@@ -58,22 +90,24 @@ layout: default
 		<div class="blog-posts">
 			<header class="post-header">
 				<h2>
-					<a href="{{ site.posts.first.url }}">
-				  	{{ site.posts.first.title }}
+					<a href="/2017/06/16/today-events.html">
+				  	Today's events
 					</a>
 				</h2>
 				<div class="post-byline">
-					<img src="{{ site.posts.first.gravatar }}" />
-					<a href="{{ site.posts.first.authorTwitter }}" 
+					<img src="https://gravatar.com/avatar/ffda7d145b83c4b118f982401f962ca6?s=150" />
+					<a href="http://twitter.com/eafrasi" 
 					class="social-link">Tw</a>
-					by: {{ site.posts.first.postAuthor }}
-					<span> - {{ site.posts.first.date | date: '%B %d, %Y' }}</span>
+					by: 
+					<span> - June 16, 2017</span>
 				</div>
 			</header>
 			<div class="posts-image"
-			style="background-image:url({{ site.posts.first.postHero }}">
+			style="background-image:url(/images/IMG_5883.png">
 			</div>
-			{{ site.posts.first.excerpt }}
+			<p>Today, it is sunny. However, a very sunny morning is misleading. There could be heavy rainfall in the afternoon.</p>
+
+
 		</div>
 	</div>
 
@@ -125,3 +159,22 @@ layout: default
 </div>
 
 		
+		</div>
+		
+		<footer class="footer">
+	<a class="footer-logo" href="/">
+		<img src="images/logo.png" alt="Learn Enough" />
+	</a>
+	<nav>
+		<ul class="footer-nav nav-links">
+			<li><a href="/">Home</a></li>
+<li><a href="/gallery">Gallery</a></li>
+<li><a href="/blog">Blog</a></li>
+<li><a href="/2017/06/16/today-events.html">Newest Post</a></li>
+
+		</ul>
+	</nav>
+	<h3> Learn Enough <span>to Be Dangerous</span></h3>
+</footer>
+	</body>
+</html>
