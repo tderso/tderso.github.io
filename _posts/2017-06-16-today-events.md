@@ -10,5 +10,7 @@ postFooter: For more information, please go to <a href="http://info.beatihagosa.
 
 Today, it is sunny. However, a very sunny morning is misleading. There could be heavy rainfall in the afternoon.
 
+<img src="/images/IMG_9968.png" alt="EECians" class="pull-right" />
+
 Yesterday, we did not have flowing water. In fact, water was not available for more than 24 hours. It came late at night.
 
