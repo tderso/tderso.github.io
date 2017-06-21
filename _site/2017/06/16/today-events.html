@@ -1,9 +1,19 @@
 <!DOCTYPE html>
 <html>
 	<head>
-	<title>Test page: Don't panic</title>
 	<meta charset="utf-8">
+	
+		<title> Today's events | Test page </title>
+		<meta property="og:title" content="Today's events" />
+	
+	
+		<meta name="Description" content="This is a dangerous site." />
+	
+	<link href="/favicon.png" rel="icon" />
+	<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway:100"
+   rel="stylesheet">
 	<!-- 
 _includes/base.html 
 From: https://ricostacruz.com/til/relative-paths-in-jekyll
@@ -12,16 +22,30 @@ With minor modifications.
 
 
 
+	<link rel="stylesheet" href="../../../../fonts/font-awesome/css/font-awesome.css" />
 	<!-- link rel="stylesheet" href="css/reset.css" / -->
 	<link rel="stylesheet" href="../../../../css/main.css" />
 </head>
 	<body>
 		<header class="header">
 	<nav>
-		<ul class="header-nav">
+		<input type="checkbox" id="mobile-menu" class="mobile-menu-check" />
+		<label for="mobile-menu" class="show-mobile-menu">Menu</label>
+		<ul class="header-nav nav-links">
 			<li><a href="/">Home</a></li>
 <li><a href="../../../../gallery">Gallery</a></li>
-<li><a href="../../../../blog">Blog</a></li>
+<li class="dropdown">
+  <a class="drop-trigger" href="../../../../blog">Blog</a>
+  <ul class="drop-menu">
+    
+    	<li><a href="/2017/06/16/today-events.html">Today's events</a></li>
+    
+    	<li><a href="/2017/06/15/title-of-second-post.html">The world of cats</a></li>
+    
+    	<li><a href="/2017/06/12/title-of-post.html">This is the title of the post</a></li>
+    
+  </ul>
+</li>
 <li><a href="/2017/06/16/today-events.html">Newest Post</a></li>
 
 		</ul>
@@ -45,7 +69,9 @@ With minor modifications.
         <h1>Today's events</h1>
         <div class="post-byline">
       	 <img src="https://gravatar.com/avatar/ffda7d145b83c4b118f982401f962ca6?s=150" />
-      	 <a href="http://twitter.com/eafrasi" class="social-link">Tw</a>
+      	 <a href="http://twitter.com/eafrasi" class="social-link">
+          <i class="fa fa-twitter"></i> 
+         </a>
       	 by: T. H. Derso
       	 <span> - June 16, 2017</span> 
         </div>
@@ -98,13 +124,24 @@ With minor modifications.
 		
 		<footer class="footer">
 	<a class="footer-logo" href="/">
-		<img src="images/logo.png" alt="Learn Enough" />
+		<img src="/images/logo.png" alt="Learn Enough" />
 	</a>
 	<nav>
 		<ul class="footer-nav nav-links">
 			<li><a href="/">Home</a></li>
 <li><a href="../../../../gallery">Gallery</a></li>
-<li><a href="../../../../blog">Blog</a></li>
+<li class="dropdown">
+  <a class="drop-trigger" href="../../../../blog">Blog</a>
+  <ul class="drop-menu">
+    
+    	<li><a href="/2017/06/16/today-events.html">Today's events</a></li>
+    
+    	<li><a href="/2017/06/15/title-of-second-post.html">The world of cats</a></li>
+    
+    	<li><a href="/2017/06/12/title-of-post.html">This is the title of the post</a></li>
+    
+  </ul>
+</li>
 <li><a href="/2017/06/16/today-events.html">Newest Post</a></li>
 
 		</ul>

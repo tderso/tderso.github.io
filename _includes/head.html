@@ -1,8 +1,24 @@
 <head>
-	<title>Test page: Don't panic</title>
 	<meta charset="utf-8">
+	{% if page.title %}
+		<title> {{ page.title }} | Test page </title>
+		<meta property="og:title" content="{{ page.title }}" />
+	{% else %}
+		<title>Test page: Don't panic</title>
+	{% endif %}
+	{% if page.description %}
+		<meta name="description" content="{{ page.description }}" />
+		<meta property="og:description" content="{{ page.description }}">
+	{% else %}
+		<meta name="Description" content="This is a dangerous site." />
+	{% endif %}
+	<link href="{{ base }}/favicon.png" rel="icon" />
+	<link rel="apple-touch-icon" href="{{ base }}/apple-touch-icon.png" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway:100"
+   rel="stylesheet">
 	{% include base.html %}
+	<link rel="stylesheet" href="{{ base }}/fonts/font-awesome/css/font-awesome.css" />
 	<!-- link rel="stylesheet" href="css/reset.css" / -->
 	<link rel="stylesheet" href="{{ base }}/css/main.css" />
 </head>

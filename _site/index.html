@@ -1,9 +1,18 @@
 <!DOCTYPE html>
 <html>
 	<head>
-	<title>Test page: Don't panic</title>
 	<meta charset="utf-8">
+	
+		<title>Test page: Don't panic</title>
+	
+	
+		<meta name="Description" content="This is a dangerous site." />
+	
+	<link href="/favicon.png" rel="icon" />
+	<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway:100"
+   rel="stylesheet">
 	<!-- 
 _includes/base.html 
 From: https://ricostacruz.com/til/relative-paths-in-jekyll
@@ -12,16 +21,30 @@ With minor modifications.
 
 
 
+	<link rel="stylesheet" href="/fonts/font-awesome/css/font-awesome.css" />
 	<!-- link rel="stylesheet" href="css/reset.css" / -->
 	<link rel="stylesheet" href="/css/main.css" />
 </head>
 	<body>
 		<header class="header">
 	<nav>
-		<ul class="header-nav">
+		<input type="checkbox" id="mobile-menu" class="mobile-menu-check" />
+		<label for="mobile-menu" class="show-mobile-menu">Menu</label>
+		<ul class="header-nav nav-links">
 			<li><a href="/">Home</a></li>
 <li><a href="/gallery">Gallery</a></li>
-<li><a href="/blog">Blog</a></li>
+<li class="dropdown">
+  <a class="drop-trigger" href="/blog">Blog</a>
+  <ul class="drop-menu">
+    
+    	<li><a href="/2017/06/16/today-events.html">Today's events</a></li>
+    
+    	<li><a href="/2017/06/15/title-of-second-post.html">The world of cats</a></li>
+    
+    	<li><a href="/2017/06/12/title-of-post.html">This is the title of the post</a></li>
+    
+  </ul>
+</li>
 <li><a href="/2017/06/16/today-events.html">Newest Post</a></li>
 
 		</ul>
@@ -41,13 +64,19 @@ With minor modifications.
 			<h1>CODE DANGEROUSLY</h1>
 			<ul class="social-list">
 				<li>
-					<a href="http://example.com/" class="social-link">Fb</a>
+					<a href="http://example.com/" class="social-link">
+						<i class="fa fa-facebook"></i>
+					</a>
 				</li>
 				<li>
-					<a href="http://example.com/" class="social-link">Tw</a>
+					<a href="http://example.com/" class="social-link">
+						<i class="fa fa-twitter"></i>
+					</a>
 				</li>
 				<li>
-					<a href="http://example.com/" class="social-link">Gh</a>
+					<a href="http://example.com/" class="social-link">
+						<i class="fa fa-github"></i>
+					</a>
 				</li>
 			</ul>
 		</div>
@@ -98,7 +127,7 @@ With minor modifications.
 				<div class="post-byline">
 					<img src="https://gravatar.com/avatar/ffda7d145b83c4b118f982401f962ca6?s=150" />
 					<a href="http://twitter.com/eafrasi" 
-					class="social-link">Tw</a>
+					class="social-link"><i class="fa fa-twitter"></i></a>
 					by: 
 					<span> - June 16, 2017</span>
 				</div>
@@ -123,7 +152,9 @@ With minor modifications.
 		  	<!-- img src="http://placekitten.com/g/400/400" -->
 		  	<img src="images/cat.jpg">
 				<h3>Michael Hartl</h3>
-				<a href="http://twitter.com/mhartl" class="social-link">Tw</a>
+				<a href="http://twitter.com/mhartl" class="social-link">
+					<i class="fa fa-twitter"></i>
+				</a>
 				<div class="bio-copy">
 					<p>
 						Known from his dazzling charm, rapier wit, and unrivaled humanity, Michael Hartl is the creator of the <a href="http://railstutorial.org/">Ruby on Rails Tutorial</a> and principal author of <a href="http://learnenough.com"> Learn Enough to Be Dangerous</a> introductory sequence.
@@ -137,7 +168,9 @@ With minor modifications.
 				<!-- img src="http://placekitten.com/g/400/400" -->
 				<img src="images/cat.jpg">
 				<h3>Lee Donahoe</h3>
-				<a href="https://twitter.com/leedonahoe" class="social-link">Tw</a>
+				<a href="https://twitter.com/leedonahoe" class="social-link">
+					<i class="fa fa-twitter"></i>
+				</a>
 				<div class="bio-copy">
 					<p>
 						When he's not literally swimming with sharks or hunting powder staches on his snowboard, you can find Lee in front of his computer designing interfaces, doing front-end development, or writing some of the interface-related Learn Enough tutorials.
@@ -148,7 +181,9 @@ With minor modifications.
 				<!-- img src="http://placekitten.com/g/400/400" -->
 				<img src="images/cat.jpg">
 				<h3>Nick Merwin</h3>
-				<a href="https://twitter.com/nickmerwin" class="social-link">Tw</a>
+				<a href="https://twitter.com/nickmerwin" class="social-link">
+					<i class="fa fa-twitter"></i>
+				</a>
 				<div class="bio-copy">
 					<p>
 						You may have seen him shredding guitar live with Capital Cities on Jimmy Kimmel, Conan, or The Ellen Show, but rest assured Nick is a true nerd at heart. He's just as happy shredding well-spec'd lines of code from a tour bus as he is from his kitchen table.
@@ -164,13 +199,24 @@ With minor modifications.
 		
 		<footer class="footer">
 	<a class="footer-logo" href="/">
-		<img src="images/logo.png" alt="Learn Enough" />
+		<img src="/images/logo.png" alt="Learn Enough" />
 	</a>
 	<nav>
 		<ul class="footer-nav nav-links">
 			<li><a href="/">Home</a></li>
 <li><a href="/gallery">Gallery</a></li>
-<li><a href="/blog">Blog</a></li>
+<li class="dropdown">
+  <a class="drop-trigger" href="/blog">Blog</a>
+  <ul class="drop-menu">
+    
+    	<li><a href="/2017/06/16/today-events.html">Today's events</a></li>
+    
+    	<li><a href="/2017/06/15/title-of-second-post.html">The world of cats</a></li>
+    
+    	<li><a href="/2017/06/12/title-of-post.html">This is the title of the post</a></li>
+    
+  </ul>
+</li>
 <li><a href="/2017/06/16/today-events.html">Newest Post</a></li>
 
 		</ul>
