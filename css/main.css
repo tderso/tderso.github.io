@@ -222,8 +222,9 @@ h2 ~ p {
   color:#fff;
 }
 .hero-home {
-  background-image: url(/images/hero.jpg);
-  background-position: center top;
+  /* background-image: url(/images/hero.jpg); */
+  background-image: url(/images/BHagosa-New-Logo.png);
+  background-position: center bottom;
 }
 .half-hero {
   background-position: center center;
@@ -597,7 +598,7 @@ h2 ~ p {
   color: #333;
   display: block;
   font-weight: normal;
-  padding: 0.5em 2em 0.5em 1em;
+  padding: 0.5 2em 0.5em 0em;
   text-align: left;
   text-transform: none;
   white-space: nowrap;
