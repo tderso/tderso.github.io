@@ -1,0 +1,85 @@
+I"<h1 id="ethiopic-keyboard">Ethiopic Keyboard</h1>
+
+<p>This keyboard layout is based on the DES-1337 of 2007 that was issued by the Quality and Standards Authority of Ethiopia.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>key</th>
+      <th> </th>
+      <th>u</th>
+      <th>i</th>
+      <th>a</th>
+      <th>e</th>
+      <th>c/,</th>
+      <th>o</th>
+      <th> </th>
+      <th> </th>
+      <th>u</th>
+      <th>i</th>
+      <th>a</th>
+      <th>e</th>
+      <th>c/,</th>
+      <th>o</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>h</td>
+      <td>ሀ</td>
+      <td>ሁ</td>
+      <td>ሂ</td>
+      <td>ሃ</td>
+      <td>ሄ</td>
+      <td>ህ</td>
+      <td>ሆ</td>
+      <td> </td>
+      <td>ኸ</td>
+      <td>ኹ</td>
+      <td>ኺ</td>
+      <td>ኻ</td>
+      <td>ኼ</td>
+      <td>ኽ</td>
+      <td>ኾ</td>
+    </tr>
+    <tr>
+      <td>l</td>
+      <td>ለ</td>
+      <td>ሉ</td>
+      <td>ሊ</td>
+      <td>ላ</td>
+      <td>ሌ</td>
+      <td>ል</td>
+      <td>ሎ</td>
+      <td> </td>
+      <td>ወ</td>
+      <td>ዉ</td>
+      <td>ዊ</td>
+      <td>ዋ</td>
+      <td>ዌ</td>
+      <td>ው</td>
+      <td>ዎ</td>
+    </tr>
+    <tr>
+      <td>H</td>
+      <td>ሐ</td>
+      <td>ሑ</td>
+      <td>ሒ</td>
+      <td>ሓ</td>
+      <td>ሔ</td>
+      <td>ሕ</td>
+      <td>ሖ</td>
+      <td> </td>
+      <td>ዐ</td>
+      <td>ዑ</td>
+      <td>ዒ</td>
+      <td>ዓ</td>
+      <td>ዔ</td>
+      <td>ዕ</td>
+      <td>ዖ</td>
+    </tr>
+  </tbody>
+</table>
+
+\[\sum_{x=1}^{x=n}x = 1 + 2 + \dots + n = \frac{n(n + 1)}{2}\]
+:ET
