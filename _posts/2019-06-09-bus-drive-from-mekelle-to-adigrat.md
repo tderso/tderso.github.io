@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Bus Drive from Mekelle to Adigrat
-postHero: /images/BHagosa-New-Logo.png
+postHero: /assets/images/BHagosa-New-Logo.png
 author: Tekle Derso
 authorTwitter: 
 gravatar: 

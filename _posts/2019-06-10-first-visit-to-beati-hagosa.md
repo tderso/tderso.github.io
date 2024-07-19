@@ -1,7 +1,7 @@
 ---
 layout: post
 title: First Visit to Be'ati Hagosa
-postHero: /images/BHagosa-New-Logo.png
+postHero: /assets/images/BHagosa-New-Logo.png
 author: Tekle Derso
 authorTwitter: 
 gravatar: 

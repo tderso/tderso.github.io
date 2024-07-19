@@ -1,20 +1,20 @@
 ---
 layout: post
 title: Plants that used to grow around Be'ati Hagosa
-postHero: /images/BHagosa-New-Logo.png
+postHero: /assets/images/BHagosa-New-Logo.png
 author: Tekle Derso
 authorTwitter: 
 gravatar: 
 postFooter: Additional information, and maybe a <a href="#">Link or two</a>
 ---
 
-Some of the plants that grow at Be'ati hagosa are the following:
+Some of the plants that grow at Be'ati Hagosa are the following:
 
 **Agam**
 
-I wonder if the name **Agame** has any thing to do with the thorny bush tree **Agam**. It used to grow in abundance every where. Now, it can only be found around church yards and other places that are considered holy, like at **Enda Abba Libanos** and probably at **Enda Abba Metta'e**. It fruits in July and August giving violet coloured fruits that are tastey to eat. Unfortunately, if on eats too much, ones teeth become sensitive to chewing other food. It must contain some sort of an acid I guess.
+I wonder if the name **Agame** has any thing to do with the thorny bush tree **Agam**. It used to grow in abundance every where. Now, it can only be found around church yards and other places that are considered holy, like at **Enda Abba Libanos** and probably at **Enda Abba Metta'e**. It fruits in July and August giving violet coloured fruits that are tastey to eat. Unfortunately, if one eats too much, ones teeth become sensitive to chewing other food. It must contain some sort of an acid I guess.
 
-A few trees exist at the place we call Mereba'e now.
+A few trees exist at the place we call Mereba'e now. The place got its name, we were told, from when the Italians had occupied Ethiopia for some time and had built a big building whose walls was made from adobes and used for storing ammunition.
 
 **Da'ero**
 
@@ -43,7 +43,7 @@ Now, it is very hard to come on a tree of **Awli'e* except at church yards.
 The reason is that, because of its strength as timberwood and highly valued as
 firewood, it was cut away indiscriminately by the people. Another reason is
 that it take a long time to grow and it is very hard to grow because all
-animals like to eat its samplings. People also cut its branches to use its
-steps as tooth brushes. So, unless some one puts a consatnt watch on an
-**Awli'e** sampling untill it grows to a big height, people and animals will
+animals like to eat its leaves and goats in particular. People also cut its branches to use its
+stems as tooth brushes. So, unless some one puts a constant watch on an
+**Awli'e** sampling until it grows to a big height, people and animals will
 never give it a chance to grow.

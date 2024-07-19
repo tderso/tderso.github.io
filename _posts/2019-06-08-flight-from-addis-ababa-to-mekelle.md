@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Flight from Addis Ababa to Mekelle
-postHero: /images/BHagosa-New-Logo.png
+postHero: /assets/images/BHagosa-New-Logo.png
 author: Tekle Derso
 authorTwitter: 
 gravatar: 
